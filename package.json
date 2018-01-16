@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines":{
-    // you tell heroku which version of node to use
     "node": "6.2.2"
   },
   "author": "",
