@@ -11,12 +11,23 @@ var io = socketIO(server);
 
 // middleware
 app.use(express.static(publicPath));
-io.on('connection', (socket) => {
-	console.log('New user connected');
 
-	socket.on('disconnect', () => {
-		console.log('User was disconnected');
-	});
+io.on('connection', (socket) => {
+  console.log('New user connected');
+
+  socket.emit('newMessage', {
+    from: 'Sam',
+    text: 'See you then',
+    createdAt: 123123
+  });
+ 
+  socket.on('createMessage', (message) => {
+    console.log('createMessage', message);
+  });
+
+  socket.on('disconnect', () => {
+    console.log('User was disconnected');
+  });
 });// let you register an event listener , when connection comes in order to do something, you provide a callback
 
 
