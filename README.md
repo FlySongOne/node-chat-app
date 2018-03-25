@@ -13,7 +13,7 @@ This app is a real-time chat app that allows multiple users to create and enter 
 ## Landing Page & Chat room 
 
 ![landingPage](./images/landingPage.png)
-![charRoom](./images/charRoom.png)
+![chatRoom](./images/chatRoom.png)
 
 ## Technologies used
 
