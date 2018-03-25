@@ -8,10 +8,12 @@ This app is a real-time chat app that allows multiple users to create and enter 
 * When new user enters the chat room, admin sent a welcome message 
 * Other users receive a massage that informs new user has entered
 * A list of all users in a char room is shown 
-* Users can send their geolocation information 
+* Users can send their geolocation information link 
 
-# Landing Page & Chat room 
+## Landing Page & Chat room 
 
+![landingPage](./images/landingPage.png)
+![charRoom](./images/charRoom.png)
 
 ## Technologies used
 
